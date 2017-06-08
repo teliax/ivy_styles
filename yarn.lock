@@ -2223,9 +2223,9 @@ ember-cli-broccoli-sane-watcher@^2.0.4:
     rsvp "^3.0.18"
     sane "^1.1.1"
 
-ember-cli-chai@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-chai/-/ember-cli-chai-0.4.0.tgz#912f960f9fc525b8ab9e69e84f580d63b2ec82e4"
+ember-cli-chai@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-chai/-/ember-cli-chai-0.4.1.tgz#fcbe60c2c779dbddff886273b0d53fb3a23932d0"
   dependencies:
     broccoli-funnel "^1.0.9"
     broccoli-merge-trees "^1.1.5"
@@ -2558,7 +2558,7 @@ ember-factory-for-polyfill@^1.1.0:
     ember-cli-babel "^5.1.7"
     ember-cli-version-checker "^1.2.0"
 
-ember-freestyle@^0.4.1:
+ember-freestyle@0.4.1:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/ember-freestyle/-/ember-freestyle-0.4.1.tgz#a6e9a01bee4c1d0baa723eb5df907a7589cf100b"
   dependencies:
@@ -4160,9 +4160,9 @@ load-json-file@^2.0.0:
     pify "^2.0.0"
     strip-bom "^3.0.0"
 
-loader.js@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/loader.js/-/loader.js-4.4.0.tgz#02bf55650b78afee5e9d8cf972efd484faa3b2c1"
+loader.js@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/loader.js/-/loader.js-4.4.1.tgz#f6a4c3c296170685cb7cd7b3e7aa6d5c846c0518"
 
 locate-path@^2.0.0:
   version "2.0.0"
