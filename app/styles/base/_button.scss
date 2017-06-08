@@ -1,0 +1,187 @@
+.btn{
+	border-radius: 5px;
+	padding: 11px 20px;
+	font-size: (12/$font-b)+em;
+	letter-spacing: 0.5px;
+	border: none ;
+	font-family: $font-montser;
+	font-weight: 300;
+	display: inline-block!important;
+	text-transform: uppercase;
+	min-width: 144px;
+	letter-spacing: 1px;
+	box-shadow: none;
+	i{
+		padding-right: 10px;
+	}
+	&:active{
+		box-shadow: none;
+	}
+}
+.no-paading{
+	padding: 0!important;
+}
+.btn-rate-green{
+	background: $green;
+	min-width: 95px;
+	color:#fff;
+	font-weight: 600;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14/$font-b + em!important;
+	&:hover, &:focus, &:active{
+		background: $red ;
+		color:#fff;
+	}
+}
+.btn-add{
+	background: $brown2;
+	color: #fff;
+	&:hover, &:focus, &:active{
+		background: $brown ;
+		color: #fff;
+	}
+	i{
+		position: relative;
+		top: 1px;
+	}
+}
+.btn-canada{
+	position: relative;
+	min-height: 30px;
+	min-width: 118px;
+	padding: 7px 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	background: $brown2;
+	color: #fff;
+	&:hover, &:focus, &:active{
+		background: $brown ;
+		color: #fff;
+	}
+	i{
+		margin-left: 10px;
+		padding-right: 0;
+	}
+}
+.btn-ghost{
+	color: #215a6c!important;
+	background: #fff;
+	border: 1px solid $green2;
+	&:hover, &:focus, &:active{
+		background: $green2 ;
+		color: #fff!important;
+	}
+}
+.btn-delete-disabled{
+	color: #fff!important;
+	background: #ed1c24;
+	opacity: 0.2;
+}
+.btn-no-background{
+	background: transparent;
+	&:hover, &:focus, &:active{
+		background: $green2 ;
+	}
+}
+.save-box{
+	a:not(.btn){
+		margin-right: 15px;
+	}
+}
+.btn-delete{
+	background: $red;
+	color: #fff;
+	&:hover, &:focus, &:active{
+		background: $red2 ;
+		color: #fff;
+	}
+}
+.btn-disable, .disabled{
+	opacity: .5;
+	cursor: default;
+	pointer-events: none;
+}
+.btn-primary{
+	background: $info;
+	color: #fff;
+	&:hover, &:focus, &:active{
+		background: $info3!important;
+	}
+}
+.btn-secondary{
+	background: $primary;
+	color: #fff;
+	&:hover, &:focus, &:active{
+		background: $primary2 ;
+		color:#fff;
+	}
+}
+
+
+.select-primary{
+	.dropdown-toggle {
+		max-width: 160px;
+		height: 40px;
+		max-height: 40px;
+		background: $info !important;
+	}
+}
+.btn-error{
+	min-width: 160px;
+	padding: 11px 0 10px;
+	border: 1px solid $red2;
+	display: block;
+	text-transform: uppercase;
+	background: #fff;
+	color: $red2;
+	font-size: (12/$font-b) + em;
+	&:hover,&:active,&:focus{
+		background: $red2;
+		color: #fff;
+	}
+	/*.table-div .table-cell-2 .box-button p{
+		margin: 0!important;
+		}*/
+	}
+	.btn-refresh{
+		min-width: 52px!important;
+		border: 1px solid #5f8896 ;
+		color: #5f8896;
+		padding-right: 11px;
+		padding-left: 11px;
+		padding-top: 9px;
+		padding-bottom: 8px;
+		&:hover{
+			background: #5f8896;
+			color: #fff;
+		}
+		i{
+			font-size: 17px;
+			padding-right: 0;
+		}
+	}
+	.submit{
+		min-width: 95px;
+		background: #215a6c;
+		color:#fff;
+		&:hover,&:active,&:focus{
+			background:  #1b434f;
+			color:#fff;
+		}
+	}
+	.btn-next{
+		min-width: 75px;
+	}
+	.btn-edit{
+		min-width: 65px;
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	@media only screen and (max-width: 767px){
+		.btn{
+			min-width: 80px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}

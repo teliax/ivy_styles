@@ -7,6 +7,13 @@ module.exports = function(defaults) {
       snippetSearchPaths: ['addon', 'tests/dummy/app']
     },
 
+    stylelint: {
+      linterConfig:{
+        syntax: 'scss',
+        includePaths: ['app/styles']
+      },
+    },
+
     'ember-bootstrap': {
       'bootstrapVersion': 3,
       'importBootstrapFont': true,

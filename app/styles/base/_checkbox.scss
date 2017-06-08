@@ -1,0 +1,164 @@
+$prim : hsla(150, 100%, 50%, 1);
+$dark : hsla(150, 100%, 25%, 1);
+.checkbox {
+  position: relative;
+  display: block;
+  margin: 1rem auto 3rem;
+  label {
+    width: 40px;
+    height: 20px;
+    background: #b6c1c8;
+    position: relative;
+    display: inline-block;
+    border-radius:46px;
+    //transition: all .25s;
+    &:after, 
+    &:before{
+      content: '';
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border-radius:100%;
+      left: 5px;
+      top: 4px;
+      background: #fff;
+      //transition:(all .25s);
+    }
+    &:before{
+      content: '\f08d';
+      content: '\f00d';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 20;
+      color: $prim;
+      color: hsla(0, 100%, 50%, 1);
+      z-index: 1;
+      overflow: hidden;
+      // animation:(.25s pin-off forwards);
+    }
+  }
+  input{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+    &:not(:checked) ~ label .indicators::before {
+      left: 50px;
+      text-align: left;
+      content: 'Off';
+    }
+    &:checked ~ label .indicators::after {
+    }
+    &:not(:disabled):hover + label:after {
+    }
+    &:checked + label{
+      background: $green;
+      font: normal normal normal 14px/1 FontAwesome;
+      &:after, 
+      &:before{
+        //content: "\f00c"; // tick (check)
+        background: #fff;
+        color: #red;
+        left: 24px;
+        z-index: 1;
+      }
+      &:before{
+        //animation:(.25s pin-on  forwards);
+      }
+    }   
+  }  
+}
+.checkbox {
+  position: relative;
+  width: 100px;
+}
+.checkbox.disabled::after {
+  content: "\f023";
+  position: absolute;
+  top: 10px;
+  left: 66px;
+  font-family: FontAwesome;
+  color: hsla(0, 0%, 0%, 0.5);
+  text-shadow: 0px 1px 1px hsla(0, 0%, 0%, 0.25);
+}
+// OR this version!
+.checkbox.ban.disabled::after {
+  content: '\f05e';
+}
+
+.checkbox.disabled.checked::after {
+  left: 24px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.disabled {
+  input {
+    cursor: not-allowed;
+  }
+}
+small {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+.indicators {
+  font-weight: 300!important;
+  color: #1b434f!important;
+  opacity: 0.5!important;
+  text-transform: none!important;
+  font-family: $font-montser!important;
+  font-style: italic;
+  font-family: $font-montser!important;
+  font-size: 14px!important;
+  &::before,
+  &::after {
+    position: absolute;
+    line-height: 20px;
+    cursor: pointer;
+    opacity: 0.5!important;                                     
+  }
+/*  &::before {
+    left: -35px;
+    text-align: right;
+    content: attr(data-label-off);
+    }*/
+    &::before {
+      left: 50px;
+      text-align: left;
+      content: 'On';
+      padding: 0 3px;
+    }
+  }
+  input:checked {
+    & ~ .indicators {
+    }
+  }
+  .check-box-2{
+   input{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+    &:not(:checked) ~ label .indicators::before {
+      left: 50px;
+      text-align: left;
+      content: 'Inactive';
+    }
+  }
+    .indicators {
+      &::before {
+        left: 50px;
+        text-align: left;
+        content: 'Active';
+        padding: 0 3px;
+      }
+    }
+  }
