@@ -1,15 +1,39 @@
 {{#freestyle-guide title="Ivy Living Style Guide" subtitle="Examples of Ivy's CSS"}}
   {{#freestyle-section name="Form Elements"}}
     {{#freestyle-usage "input" title="Input"}}
-      {{input}}
+      {{input class="form-control"}}
     {{/freestyle-usage}}
 
-    {{#freestyle-usage "button" title="Button"}}
-      <button>Submit</button>
+    {{#freestyle-usage "heading" title="Heading"}}
+      <h3 class="tooltips">
+        <i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="This is a tooltip text. Lorem ipsum dolor sit amet."></i>
+        Form Heading
+      </h3>
     {{/freestyle-usage}}
 
     {{#freestyle-usage "checkbox" title="Checkbox"}}
-      Enabled {{input type="checkbox"}}
+      <div class="row">
+        <div class="col-sm-6 col-xs-6">
+          <p class="title">Feature flag</p> 
+        </div>
+        <div class="col-sm-6 col-xs-6 text-right">
+          <div class="checkbox checked">
+            <input type="checkbox" id="check_04">
+            <label for="check_04"><span class="indicators" data-label-off="off" data-label-on="on"></span></label>
+          </div>
+        </div>
+      </div>
+    {{/freestyle-usage}}
+
+    {{#freestyle-usage "form-group" title="Form Group"}}
+      <div class="form-group">
+        <label for="" class="label">Type stuff:</label>
+        <input type="text" class="form-control" placeholder="here">
+      </div>
+    {{/freestyle-usage}}
+
+    {{#freestyle-usage "hr" title="HR"}}
+      <hr>
     {{/freestyle-usage}}
   {{/freestyle-section}}
 
