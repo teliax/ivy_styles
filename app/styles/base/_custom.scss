@@ -1,4 +1,4 @@
-body{
+body {
   -webkit-font-smoothing: antialiased !important;
   overflow-x: hidden;
   font-family: $font-montser;
@@ -9,374 +9,371 @@ body{
   background: $colorbody;
 }
 
-.wrapper{
+.wrapper {
   padding-left: 270px;
   margin-top: 80px;
   border-top: 1px solid #e8ecef;
   overflow-x: hidden;
-  transition: .25s all;
-  -webkit-transition: .25s all;
+  transition: 0.25s all;
+  -webkit-transition: 0.25s all;
 
-  &.no-dashboard{
+  &.no-dashboard {
     padding-left: 0;
     border-top: none;
   }
 }
 
-.container{
+.container {
   width: 100%;
 }
 
-.fullwidth{
+.fullwidth {
   width: 100%;
 }
 
-#audioplayer{
+#audioplayer {
   width: 480px;
   height: 60px;
-  margin: 50px auto auto auto;
+  margin: 50px auto auto;
   border: solid;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   z-index: 100;
 }
 
-.open-menu{
-  .fa-angle-down:before {
+.open-menu {
+  .fa-angle-down::before {
     content: "\f106";
   }
 }
 
-#pButton{
-  height:60px; 
+#pButton {
+  height: 60px;
   width: 60px;
   border: none;
   background-size: 50% 50%;
   background-repeat: no-repeat;
   background-position: center;
-  float:left;
-  outline:none;
+  float: left;
+  outline: none;
 }
 
-.ps-item{
-  position: absolute!important;
+.ps-item {
+  position: absolute !important;
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-#main-content{
+#main-content {
   padding-bottom: 50px;
   padding-top: 30px;
 }
 
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 
-p{
-  strong{
+p {
+  strong {
     font-weight: 600;
   }
 }
 
-li{
-}
-
-h1, .h1{
+h1,
+.h1 {
   color: #1b434f;
 }
 
-h2, .h2{
+h2,
+.h2 {
   font-size: (24/$font-b) + em;
   color: $grey;
 }
 
-h3, .h3{
+h3,
+.h3 {
   font-size: 18/$font-b + em;
   color: #1b434f;
 
-  i{
+  i {
     padding-right: 10px;
     color: #bfbfbf;
   }
 }
 
-a{
+a {
   color: $info;
 
-  &:hover,&:focus{
+  &:hover,
+  &:focus {
     color: $colorA;
   }
 }
 
-.padding-top-none{
-  padding-top: 0!important;
+.padding-top-none {
+  padding-top: 0 !important;
 }
 
-.margin-none{
-  margin: 10px!important;
+.margin-none {
+  margin: 10px !important;
 }
 
-.padding-none{
-  padding-left: 0!important;
-  padding-right: 0!important;
+.padding-none {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.table-cell-2{
+.table-cell-2 {
   display: table-cell;
   float: none;
   vertical-align: middle;
 }
 
-.hover-a{
+.hover-a {
   font-size: 12/$font-b + em;
   padding-bottom: 5px;
   font-family: $font-montser;
   border-bottom: 1px solid $info;
   text-decoration: none;
 
-  &:hover{
+  &:hover {
     text-decoration: none;
     border-bottom: 1px solid $colorA;
   }
 }
 
-.min-eight-five{
-  min-width: 85px!important;
+.min-eight-five {
+  min-width: 85px !important;
 }
 
-.learn-more{
+.learn-more {
   border-bottom: 1px solid #92a3b8;
-  color:#92a3b8;
+  color: #92a3b8;
 
-  &:hover{
+  &:hover {
     border-bottom: 1px solid #42606a;
-    color:#42606a;
+    color: #42606a;
     font-weight: 500;
   }
 }
 
-hr{
+hr {
   height: 1px;
   border-top: none;
   margin-top: 15px;
   margin-bottom: 25px;
 }
 
-.border-bottom{
+.border-bottom {
   padding-bottom: 20px;
   border-bottom: 1px solid $colorborder;
 }
 
-.rate{
-  font-family: $font-montser; 
+.rate {
+  font-family: $font-montser;
   font-size: 30/$font-b + em;
   padding-right: 40px;
   position: relative;
   vertical-align: middle;
 }
 
-.text-delete{
-  color:#215a6c!important;
-  border-bottom: 1px solid #215a6c!important;
+.text-delete {
+  color: #215a6c !important;
+  border-bottom: 1px solid #215a6c !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   padding-bottom: 3px;
 
-  &:hover, &:active, &:focus{
+  &:hover,
+  &:active,
+  &:focus {
     text-decoration: none;
-    color: #92a3b8!important;
-    border-bottom: 1px solid #92a3b8!important;
+    color: #92a3b8 !important;
+    border-bottom: 1px solid #92a3b8 !important;
   }
 }
 
-.progress{
+.progress {
   height: 4px;
   background: #b6c1c8;
   margin-bottom: 25px;
   border-radius: 10px;
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 
-.bg-secondary{
+.bg-secondary {
   background: #215a6c;
 }
 
-.table-div{
+.table-div {
   display: table;
   width: 100%;
   table-layout: fixed;
 
-  .table-cell{
+  .table-cell {
     display: table-cell;
     width: 100%;
     vertical-align: middle;
   }
 
-  &.top{
+  &.top {
     vertical-align: top;
   }
 }
 
-input,textarea,button{
+input,
+textarea,
+button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: none!important;
+  box-shadow: none !important;
 
-  &:focus{
-    outline: 0!important;
-    box-shadow: none!important;
+  &:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
   }
 }
 
-.ps-rv{
+.ps-rv {
   position: relative;
 }
 
 @supports (-ms-ime-align:auto) {
-  .container{
+  .container {
     padding-right: 30px;
   }
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .container{
+  .container {
     padding-right: 30px;
   }
 }
 
-@media only screen and (min-width: 1390px){
-  .table-div-refresh{
+@media only screen and (min-width: 1390px) {
+  .table-div-refresh {
     display: table;
     width: 100%;
     table-layout: fixed;
     margin: 0;
   }
 
-  .table-cell-refresh{
+  .table-cell-refresh {
     display: table-cell;
-    float: none;
     vertical-align: middle;
-    float: none!important;
+    float: none !important;
     padding: 0;
   }
 }
 
-@media only screen and (min-width: 10px){
-  #header{
-    .container{
-      width:100% !important;
+@media only screen and (min-width: 10px) {
+  #header {
+    .container {
+      width: 100% !important;
       max-width: none;
     }
   }
 }
 
-@media only screen and (min-width: 1200px){
-  .text-right-lg{
+@media only screen and (min-width: 1200px) {
+  .text-right-lg {
     text-align: right;
   }
 
-  .wrapper.no-dashboard{
-    .container{
-      width:100%;
+  .wrapper.no-dashboard {
+    .container {
+      width: 100%;
       max-width: 1096px;
     }
 
-    #header{
-      .container{
+    #header {
+      .container {
         max-width: 1366px;
       }
     }
   }
 }
 
-@media only screen and (max-width: 1199px){
-}
-
-@media only screen and (min-width: 992px){
-  .text-right-md{
+@media only screen and (min-width: 992px) {
+  .text-right-md {
     text-align: right;
   }
 }
 
-@media only screen and(max-width: 991px) and(min-width: $min-sm){
-  .wrapper{
+@media only screen and(max-width: 991px) and(min-width: $min-sm) {
+  .wrapper {
     padding-left: 210px;
   }
 
-  .col-sm-6,.col-sm-8,.col-sm-4{
-    //padding-left: 10px;
-    //padding-right: 10px;
-  }
-
   .box-table {
-    padding-left: 15px!important;
-    padding-right: 15px!important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 
-/*note*/
-@-moz-document url-prefix(){
-  .col-sm-4,.col-sm-8,.col-sm-6{
-    padding-right: 15px!important;
-    padding-left: 15px!important;
+@-moz-document url-prefix() {
+  .col-sm-4,
+  .col-sm-8,
+  .col-sm-6 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
 }
 
-@media only screen and(max-width: $max-sm){
-  .wrapper{
+@media only screen and(max-width: $max-sm) {
+  .wrapper {
     padding-left: 0;
   }
 
   .box-table {
-    padding-left: 15px!important;
-    padding-right: 15px!important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   .box-site {
-    padding-left: 15px!important;
-    padding-right: 15px!important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
-  .touch{
-    *{
+  .touch {
+    * {
       cursor: pointer;
     }
   }
 }
 
-@media only screen and (max-width: 500px){
-  .full-width{
+@media only screen and (max-width: 500px) {
+  .full-width {
     width: 100%;
   }
 
-  .text-left-small{
-    text-align: left!important;
+  .text-left-small {
+    text-align: left !important;
   }
 
-  .mb-small{
+  .mb-small {
     margin-bottom: 10px;
   }
 }
 
-@media only screen and (max-width: 480px){
-  body{
+@media only screen and (max-width: 480px) {
+  body {
     font-size: 12px;
   }
 }
 
-@media only screen and(max-width: 400px){
-  .wrapper{
+@media only screen and(max-width: 400px) {
+  .wrapper {
     margin-top: 60px;
   }
 }
 
-@media only screen and (max-width: 380px){
-  body{
+@media only screen and (max-width: 380px) {
+  body {
     font-size: 11px;
   }
 }

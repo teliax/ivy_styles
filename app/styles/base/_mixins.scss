@@ -1,6 +1,6 @@
 // Based on http://codepen.io/javasteve99/pen/hDxpn
-@mixin font-face($font-family, $file-path, $font-weight: normal, $font-style: normal){
-  @font-face{
+@mixin font-face($font-family, $file-path, $font-weight: normal, $font-style: normal) {
+  @font-face {
     font-family: $font-family;
     src: url('#{$file-path}.eot');
     src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'), url('#{$file-path}.woff2') format('woff2'), url('#{$file-path}.woff') format('woff'), url('#{$file-path}.ttf') format('truetype'), url('#{$file-path}.svg##{$font-family}') format('svg');
@@ -8,11 +8,10 @@
     font-style: $font-style;
   }
 
-  @media screen and (-webkit-min-device-pixel-ratio: 0){
-    @font-face{
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
       font-family: $font-family;
       src: url('#{$file-path}.svg##{$font-family}') format('svg');
     }
   }
-}    
-
+}

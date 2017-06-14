@@ -1,7 +1,7 @@
 .audio-player {
   position: relative;
 
-  .scrubber{
+  .scrubber {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -13,15 +13,15 @@
     position: relative;
   }
 
-  .loaded{
+  .loaded {
     //background-color: #41a6c5;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     //height: 5px;
   }
 
-  .progress{
+  .progress {
     background-color: #337ab7;
     margin: 0 !important;
     position: relative;
@@ -29,22 +29,22 @@
     width: 0;
   }
 
-  .group-time{
+  .group-time {
     right: 0;
     top: 0;
     position: absolute;
   }
 
-  .title-audio{
+  .title-audio {
     padding-right: 100px;
     padding-bottom: 8px;
   }
 
-  .play-pause{
+  .play-pause {
     position: relative;
   }
 
-  #play-btn{
+  #play-btn {
     position: absolute;
     left: -6px;
     bottom: -16px;
@@ -53,24 +53,25 @@
     padding: 5px;
     font-size: 1.3em;
 
-    &.pause{
-      .fa:before{
+    &.pause {
+      .fa::before {
         content: "\f28b";
       }
     }
 
-    .fa:hover{
+    .fa:hover {
       color: #337ab7;
     }
   }
 
-  small{
+  small {
     display: inline-block;
   }
 }
 
-.playing{
-  #play-btn .fa:before{
+.playing {
+  #play-btn .fa::before {
     content: "\f28b";
   }
 }
+

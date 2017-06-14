@@ -1,127 +1,126 @@
-.box-availible{
+.box-availible {
   border: 1px solid #d8dbe3;
   padding: 30px 35px 37px;
-  border-radius: 5px; 
+  border-radius: 5px;
   background: #fff;
 
-  h3{
+  h3 {
     margin: 15px 0;
   }
 
-  hr{
+  hr {
     margin-bottom: 30px;
   }
 
-  .label{
+  .label {
     padding-bottom: 5px;
   }
 
-  .totle-rate strong{
+  .totle-rate strong {
     position: relative;
-    top:5px;
+    top: 5px;
   }
 
-  .table th{
+  .table th {
     color: #33535e;
     font-weight: 400;
   }
 
-  .text-title{
-    p{
+  .text-title {
+    p {
       color: #92a3b8;
       letter-spacing: 1px;
     }
   }
 
-  h3{
+  h3 {
     font-weight: 300;
   }
 
-  .border-bottom{
-    padding-bottom: 15px; 
+  .border-bottom {
+    padding-bottom: 15px;
     margin-bottom: 25px;
 
-    h3{
+    h3 {
       margin-top: 10px;
     }
   }
 }
 
-.out-box-total{
-  font-weight: 500!important;
-  letter-spacing: 1px!important;
-  padding-bottom: 35px!important;
+.out-box-total {
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+  padding-bottom: 35px !important;
 
-  strong{
+  strong {
     position: relative;
-    top:4px;
+    top: 4px;
   }
 }
 
-.table-text-right{
-  th{
-    text-align: right!important;
+.table-text-right {
+  th {
+    text-align: right !important;
   }
 }
 
-.table-responsive{
+.table-responsive {
   border-radius: 5px;
   border: 1px solid $colorborderSmall !important;
 
-	
-  .table{
-    border: none!important;
+  .table {
+    border: none !important;
   }
 }
 
-.table{
+.table {
   margin-bottom: 0;
   padding-right: 8px;
   padding-left: 8px;
-  border: 1px solid $colorborderSmall!important;
+  border: 1px solid $colorborderSmall !important;
   border: 0;
 
-  th,td{
-    padding-top: 15px!important;
-    padding-bottom: 15px!important;
-    padding-left: 18px!important;
-    padding-right: 18px!important;
+  th,
+  td {
+    padding: 15px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
     letter-spacing: 0.4px;
   }
 
-  .thead th{
+  .thead th {
     color: #215a6c;
     font-weight: 400;
-    vertical-align: bottom!important;
+    vertical-align: bottom !important;
     border-bottom: 1px solid #e7e9ed;
   }
 
-  caption{
+  caption {
     color: #1b434f;
     padding: 20px 18px;
     font-size: 18/$font-b + em;
     border-bottom: 1px solid #d8dbe3;
 
-    i{
+    i {
       padding-right: 10px;
     }
   }
 
-  th{
+  th {
     font-size: 15/$font-b + em;
     border-bottom: 0;
-    border-top: none!important;
-    line-height: 20/15 + em!important; 
+    border-top: none !important;
+    line-height: 20/15 + em !important;
   }
 
-  td{
+  td {
     color: #627189;
-    border-top: none!important; 
-    line-height: 20/13 + em!important; 
+    border-top: none !important;
+    line-height: 20/13 + em !important;
   }
 }
 
-.totle-rate{
+.totle-rate {
   padding-top: 17px;
   padding-bottom: 22px;
   font-size: 15/$font-b + em;
@@ -130,7 +129,7 @@
   letter-spacing: 0.5px;
   color: #1b434f;
 
-  strong{
+  strong {
     font-size: 30/15 + em;
     font-weight: 300;
     font-family: $font-montser;
@@ -142,52 +141,52 @@
 }
 
 .table > thead > tr > th {
-  border-bottom: 1px solid #e6eaee!important;
+  border-bottom: 1px solid #e6eaee !important;
 }
 
-@media only screen and(max-width: 1120px) and (min-width: 992px){
-  .box-availible{
-    .col-sm-6{
+@media only screen and(max-width: 1120px) and (min-width: 992px) {
+  .box-availible {
+    .col-sm-6 {
       width: 100%;
 
-      p{
+      p {
         text-align: left;
       }
     }
   }
 }
 
-@media only screen and(max-width: 1260px) and (min-width: 1117px){
+@media only screen and(max-width: 1260px) and (min-width: 1117px) {
   .box-availible .totle-rate {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
-@media only screen and(max-width: 1117px) and (min-width: 992px){
-  .box-availible .totle-rate{
-    font-size: 0.7em!important;
+@media only screen and(max-width: 1117px) and (min-width: 992px) {
+  .box-availible .totle-rate {
+    font-size: 0.7em !important;
 
-    strong{
+    strong {
       padding-left: 5px;
     }
   }
 }
 
-@media only screen and(max-width: 991px){
-  .box-availible{
+@media only screen and(max-width: 991px) {
+  .box-availible {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-@media only screen and(max-width: $max-sm){
+@media only screen and(max-width: $max-sm) {
   .totle-rate {
     padding-top: 0;
   }
 }
 
-@media only screen and(max-width: 425px){
-  .out-box-total{
+@media only screen and(max-width: 425px) {
+  .out-box-total {
     margin-top: 10px;
   }
 }
