@@ -1,9 +1,11 @@
 $prim : hsla(150, 100%, 50%, 1);
 $dark : hsla(150, 100%, 25%, 1);
+
 .checkbox {
   position: relative;
   display: block;
   margin: 1rem auto 3rem;
+
   label {
     width: 40px;
     height: 20px;
@@ -24,6 +26,7 @@ $dark : hsla(150, 100%, 25%, 1);
       background: #fff;
       //transition:(all .25s);
     }
+
     &:before{
       content: '\f08d';
       content: '\f00d';
@@ -38,6 +41,7 @@ $dark : hsla(150, 100%, 25%, 1);
       // animation:(.25s pin-off forwards);
     }
   }
+
   input{
     position: absolute;
     right: 0;
@@ -47,18 +51,23 @@ $dark : hsla(150, 100%, 25%, 1);
     z-index: 5;
     opacity: 0;
     cursor: pointer;
+
     &:not(:checked) ~ label .indicators::before {
       left: 50px;
       text-align: left;
       content: 'Off';
     }
+
     &:checked ~ label .indicators::after {
     }
+
     &:not(:disabled):hover + label:after {
     }
+
     &:checked + label{
       background: $green;
       font: normal normal normal 14px/1 FontAwesome;
+
       &:after, 
       &:before{
         //content: "\f00c"; // tick (check)
@@ -67,16 +76,19 @@ $dark : hsla(150, 100%, 25%, 1);
         left: 24px;
         z-index: 1;
       }
+
       &:before{
         //animation:(.25s pin-on  forwards);
       }
     }   
   }  
 }
+
 .checkbox {
   position: relative;
   width: 100px;
 }
+
 .checkbox.disabled::after {
   content: "\f023";
   position: absolute;
@@ -95,16 +107,19 @@ $dark : hsla(150, 100%, 25%, 1);
   left: 24px;
   color: hsla(0, 0%, 100%, 0.75);
 }
+
 .disabled {
   input {
     cursor: not-allowed;
   }
 }
+
 small {
   display: block;
   font-size: 12px;
   font-weight: normal;
 }
+
 .indicators {
   font-weight: 300!important;
   color: #1b434f!important;
@@ -114,6 +129,7 @@ small {
   font-style: italic;
   font-family: $font-montser!important;
   font-size: 14px!important;
+
   &::before,
   &::after {
     position: absolute;
@@ -121,24 +137,27 @@ small {
     cursor: pointer;
     opacity: 0.5!important;                                     
   }
-/*  &::before {
+
+  /*  &::before {
     left: -35px;
     text-align: right;
     content: attr(data-label-off);
     }*/
-    &::before {
-      left: 50px;
-      text-align: left;
-      content: 'On';
-      padding: 0 3px;
-    }
+  &::before {
+    left: 50px;
+    text-align: left;
+    content: 'On';
+    padding: 0 3px;
   }
-  input:checked {
-    & ~ .indicators {
-    }
+}
+
+input:checked {
+  & ~ .indicators {
   }
-  .check-box-2{
-   input{
+}
+
+.check-box-2{
+  input{
     position: absolute;
     right: 0;
     top: 0;
@@ -147,18 +166,20 @@ small {
     z-index: 5;
     opacity: 0;
     cursor: pointer;
+
     &:not(:checked) ~ label .indicators::before {
       left: 50px;
       text-align: left;
       content: 'Inactive';
     }
   }
-    .indicators {
-      &::before {
-        left: 50px;
-        text-align: left;
-        content: 'Active';
-        padding: 0 3px;
-      }
+
+  .indicators {
+    &::before {
+      left: 50px;
+      text-align: left;
+      content: 'Active';
+      padding: 0 3px;
     }
   }
+}
