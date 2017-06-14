@@ -7,7 +7,7 @@
   .row-setup {
     padding-top: 45px;
 
-    &: first-child {
+    &:first-child {
       padding-top: 15px;
     }
   }
@@ -15,7 +15,7 @@
   .learn-more {
     margin-bottom: 40px;
 
-    &: hover {
+    &:hover {
       border-bottom: 1px solid #42606a;
     }
   }
@@ -78,7 +78,7 @@
     height: 5px;
     margin-left: 23px;
     margin-top: 5px;
-    background: 215a6c;
+    background: #215a6c;
   }
 }
 
@@ -100,7 +100,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    &: active,
+    &:active,
     &:focus {
       border-bottom: 1px solid #133742 !important;
     }
@@ -254,12 +254,12 @@
     }
   }
 
-  .setup .select-ver2.bootstrap-select: not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  .setup .select-ver2.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
     margin-left: 0 !important;
   }
 }
 
-@media only screen and(max-width: 790px) and (min-width: 768px) { 
+@media only screen and(max-width: 790px) and (min-width: 768px) {
   .audio-player .title-audio {
     font-size: 12/13 + em;
   }

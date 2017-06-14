@@ -21,9 +21,8 @@
     line-height: 24/14 + em;
     font-family: $font-montser;
     font-weight: 300;
-    //padding-left: 40px;
     padding-top: 5px;
-    opacity: .5;
+    opacity: 0.5;
     letter-spacing: 0.4px;
   }
 }
@@ -35,7 +34,7 @@
 }
 
 .box-error {
-  padding: 18px 20px 18px;
+  padding: 18px 20px;
   border-radius: 5px;
   position: relative;
   clear: both;
@@ -62,7 +61,6 @@
   .btn {
     white-space: normal;
   }
-
 }
 
 .bg-yellow {
@@ -87,7 +85,9 @@
   .btn-error {
     border: 1px solid #e99301;
 
-    &:hover,&:focus,&:active {
+    &:hover,
+    &:focus,
+    &:active {
       background: #e99301;
       color: #fff !important;
     }
@@ -132,7 +132,7 @@
     position: absolute;
     left: 0;
     padding-right: 0;
-    top:1px;
+    top: 1px;
   }
 
   .text-tooltip {
@@ -146,12 +146,10 @@
     opacity: 0.5;
     line-height: 24/12 + em;
     margin-bottom: -20px;
-
   }
 }
 
-.tooltip-inner
- {
+.tooltip-inner {
   width: 145px;
   font-weight: 600;
   font-size: 13px;
@@ -179,13 +177,15 @@
 
     i {
       position: absolute;
-      top:50%;
+      top: 50%;
       left: 0;
       font-size: 16/$font-b + em;
       transform: translateY(-50%);
     }
 
-    &:hover,&:active,&:focus {
+    &:hover,
+    &:active,
+    &:focus {
       color: #215a6c;
       border-bottom: 1px solid #215a6c;
     }
@@ -197,13 +197,12 @@
   border-radius: 0 !important;
 
   .top-shay-ruggles {
-    padding: 30px 50px 20px 20px;
-    border-bottom: 1px solid #d9dde1 ;
+    padding: 30px 50px 20px;
+    border-bottom: 1px solid #d9dde1;
 
     .row {
       padding-bottom: 0;
     }
-
   }
 
   .title {
@@ -232,7 +231,7 @@
       margin: 0;
 
       a {
-        color:#41a6c5 !important;
+        color: #41a6c5 !important;
         padding-bottom: 5px;
         font-size: 12/$font-b + em !important;
         border-bottom: 1px solid #41a6c5;
@@ -241,14 +240,16 @@
 
         i {
           position: absolute;
-          top:50%;
-          transform:translateY(-50%);
+          top: 50%;
+          transform: translateY(-50%);
           padding-left: 10px;
           color: #41a6c5 !important;
-          font-size: .9em;
+          font-size: 0.9em;
         }
 
-        &:hover,&:active,&:focus {
+        &:hover,
+        &:active,
+        &:focus {
           color: #215a6c !important;
           border-bottom: 1px solid #215a6c;
 
@@ -269,8 +270,6 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-width: 10px;
-    margin-left: 0;
     border-width: 8px;
     border-bottom-color: #d0d4d8;
     margin-left: -2px;
@@ -285,8 +284,6 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-width: 8px;
-    margin-left: 0;
     border-bottom-color: #fff;
     margin-top: -1px;
     border-width: 8px;
@@ -315,7 +312,7 @@ hr {
     color: #627189 !important;
   }
 
-  .form-control:-moz-placeholder { 
+  .form-control:-moz-placeholder {
     color: #627189 !important;
   }
 
@@ -323,7 +320,7 @@ hr {
     color: #627189 !important;
   }
 
-  .form-control:-ms-input-placeholder { 
+  .form-control:-ms-input-placeholder {
     opacity: 1;
     color: #627189 !important;
   }
@@ -332,11 +329,11 @@ hr {
     color: #627189 !important;
   }
 
-  .form-control::placeholder { 
+  .form-control::placeholder {
     color: #627189 !important;
   }
 
-  .form-control::-webkit-input-placeholder { 
+  .form-control::-webkit-input-placeholder {
     color: #627189 !important;
   }
 
@@ -349,11 +346,10 @@ hr {
 
     i {
       color: #1b434f;
-
     }
 
     i:hover {
-      color:#42a7c5 !important;
+      color: #42a7c5 !important;
     }
   }
 
@@ -391,7 +387,6 @@ hr {
         font-weight: 400;
       }
     }
-
   }
 
   .bottom-check-asktion {
@@ -419,7 +414,8 @@ hr {
         padding-top: 0 !important;
         font-weight: 400;
 
-        &:hover,&:active {
+        &:hover,
+        &:active {
           color: #1b434f !important;
           border-bottom: 1px solid #1b434f !important;
           font-weight: 500;
@@ -453,7 +449,7 @@ hr {
         padding-left: 10px;
         color: #41a6c5 !important;
         position: absolute;
-        top:50%;
+        top: 50%;
         transform: translateY(-50%);
       }
     }
@@ -468,12 +464,9 @@ hr {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-width: 10px;
-    margin-left: 0;
     border-width: 8px;
     border-bottom-color: #d0d4d8;
     margin-left: -2px;
-
   }
 
   &::after {
@@ -485,8 +478,6 @@ hr {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-width: 8px;
-    margin-left: 0;
     border-bottom-color: #fff;
     margin-top: -1px;
     border-width: 8px;
@@ -499,7 +490,7 @@ hr {
 
   li {
     list-style: none;
-    padding:  10px 0 !important;
+    padding: 10px 0 !important;
 
     a {
       display: inline-block;
@@ -520,7 +511,7 @@ hr {
 }
 
 .input-group-addon.monney {
-  color:#627189;
+  color: #627189;
 }
 
 .box-card {
@@ -537,7 +528,7 @@ hr {
     }
   }
 
-  .form-group .form-control:focus+.input-group-addon {
+  .form-group .form-control:focus + .input-group-addon {
     border: 1px solid #41a6c5 !important;
     border-right: none !important;
   }
@@ -614,7 +605,7 @@ hr {
 
 .tour-backdrop {
   background-color: #121c27;
-  opacity: .5;
+  opacity: 0.5;
   filter: alpha(opacity=50);
 }
 
@@ -641,7 +632,8 @@ hr {
   font-weight: 300;
   max-width: 393px;
 
-  .arrow, .arrow::after {
+  .arrow,
+  .arrow::after {
     position: absolute;
     display: block;
     width: 0;
@@ -659,11 +651,6 @@ hr {
     border-width: 10px;
     left: 50%;
     margin-left: -11px;
-
-    /*border-bottom-width: 0;
-		border-top-color: #999;
-		border-top-color: rgba(0,0,0,.25);
-		bottom: -11px;*/
   }
 
   &.top .arrow::after {
@@ -704,8 +691,7 @@ hr {
     bottom: 0;
     margin-top: -11px;
     border-left-width: 0;
-    border-right-color: #999;
-    border-right-color: rgba(0,0,0,.25);
+    border-right-color: rgba(0, 0, 0, 0.25);
   }
 
   &.left .arrow {
@@ -713,17 +699,14 @@ hr {
     right: -11px;
     left: auto;
     bottom: auto;
-    //margin-top: -11px;
     border-right-width: 0;
-    border-left-color: #999;
-    border-left-color: rgba(0,0,0,.25);
+    border-left-color: rgba(0, 0, 0, 0.25);
   }
 
   &.bottom .arrow {
     left: 50%;
     margin-left: -11px;
     border-top-width: 0;
-    border-bottom-color: #999999;
     border-bottom-color: rgba(0, 0, 0, 0.25);
     top: -11px;
   }
@@ -732,10 +715,8 @@ hr {
     left: 50%;
     margin-left: -11px;
     border-bottom-width: 0;
-    border-top-color: #999999;
     border-top-color: rgba(0, 0, 0, 0.25);
     bottom: -11px;
-		
   }
 
   &.left > .arrow {
@@ -743,7 +724,6 @@ hr {
     right: -11px;
     margin-top: -11px;
     border-right-width: 0;
-    border-left-color: #999999;
     border-left-color: rgba(0, 0, 0, 0.25);
   }
 
@@ -752,27 +732,24 @@ hr {
     left: -11px;
     margin-top: -11px;
     border-left-width: 0;
-    border-right-color: #999999;
     border-right-color: rgba(0, 0, 0, 0.25);
   }
-
 }
 
 .panel-box {
   max-width: 373px;
   background: #fff;
-  padding: 10px 30px 20px ;
+  padding: 10px 30px 20px;
   border: 1px solid #d0d4d8;
   position: relative;
   border-radius: 5px;
   line-height: inherit;
-  font-size: inherit;
-  //font-family: $font-raleway;
   box-shadow: none;
   margin: 10px;
   font-size: 14px;
 
-  .popover-content, .popover-navigation {
+  .popover-content,
+  .popover-navigation {
     padding: 0 !important;
   }
 
@@ -796,11 +773,10 @@ hr {
     .btn-next {
       margin-left: 20px;
     }
-
   }
 
   .close-tour {
-    color:#1b434f;
+    color: #1b434f;
     position: absolute;
     font-size: 1.38462em;
     top: 31px;
@@ -813,7 +789,7 @@ hr {
 
   h3 {
     position: relative;
-    color:#1b434f;
+    color: #1b434f;
     margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 0;
@@ -825,9 +801,9 @@ hr {
     letter-spacing: 0.4px;
 
     i {
-      color:#1b434f;
+      color: #1b434f;
       position: absolute;
-      top:0;
+      top: 0;
       right: 0;
       padding-right: 0;
 
@@ -841,12 +817,12 @@ hr {
     color: #92a3b8;
     letter-spacing: 0.6px;
 
-    a:not(.btn,.hover-a) {
-      color:#92a3b8;
+    a:not(.btn, .hover-a) {
+      color: #92a3b8;
       text-decoration: underline;
 
       &:hover {
-        color:#1b434f;
+        color: #1b434f;
         font-weight: 400;
       }
     }
@@ -867,7 +843,7 @@ hr {
 .panel-box-bot::after {
   content: " ";
   bottom: -15px;
-  top:auto;
+  top: auto;
   left: 50%;
   transform: translateY(0);
   border: solid transparent;
@@ -875,8 +851,6 @@ hr {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-width: 8px;
-  margin-left: 0;
   border-top-color: #fff;
   margin-top: 6px;
   border-width: 8px;
@@ -886,7 +860,7 @@ hr {
 .panel-box-bot::before {
   bottom: -17px;
   left: 50%;
-  top:auto;
+  top: auto;
   border: solid transparent;
   transform: translateY(0);
   content: " ";
@@ -894,8 +868,6 @@ hr {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-width: 10px;
-  margin-left: 0;
   border-width: 8px;
   border-top-color: #d0d4d8;
   margin-left: -2px;
@@ -928,7 +900,9 @@ hr {
     font-size: 1.3em;
     color: #627189;
 
-    &:hover,&:focus,&:active {
+    &:hover,
+    &:focus,
+    &:active {
       color: #42a7c5;
     }
   }
@@ -936,7 +910,7 @@ hr {
   p {
     text-transform: uppercase;
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
     left: 140px;
     right: 0;
@@ -967,7 +941,7 @@ hr {
   p {
     position: absolute;
     left: 20px;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
     color: #215a6c;
     font-size: 12/$font-b + em;
@@ -985,15 +959,17 @@ hr {
   span {
     position: absolute;
     right: 20px;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 
     i {
       font-size: 1.3em;
       cursor: pointer;
 
-      &:hover,&:focus,&:active {
-        color:#42a7c5;
+      &:hover,
+      &:focus,
+      &:active {
+        color: #42a7c5;
       }
     }
   }
@@ -1005,7 +981,7 @@ hr {
 
 .upload {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1023,7 +999,7 @@ hr {
 
   .table {
     margin-bottom: 0;
-    border-radius: 5px; 
+    border-radius: 5px;
     padding-right: 8px;
     padding-left: 8px;
     border: 0;
@@ -1032,7 +1008,8 @@ hr {
       border-top: 1px solid #d8dbe3;
     }
 
-    th,td {
+    th,
+    td {
       height: 65px;
       padding-left: 18px;
     }
@@ -1040,7 +1017,6 @@ hr {
     th {
       font-size: 15/$font-b + em;
       border-bottom: 0;
-
     }
 
     td {
@@ -1050,9 +1026,9 @@ hr {
 }
 
 .table {
-  th,td {
+  th,
+  td {
     vertical-align: middle !important;
-
   }
 }
 
@@ -1064,7 +1040,7 @@ hr {
   background-color: #f5f7f8;
 }
 
-.table-striped > tbody > tr:nth-of-typet(odd) {
+.table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f5f7f8;
 }
 
@@ -1092,7 +1068,7 @@ table.table-responsive {
 .c-table {
   .tooltips {
     padding: 0 50px 35px;
-    margin-top: 35px; 
+    margin-top: 35px;
     border-bottom: 1px solid $colorborder;
     margin-bottom: 0;
 
@@ -1352,7 +1328,7 @@ table.table-responsive {
   }
 
   .box-card .form-group .input-group {
-    margin-right: 0; 
+    margin-right: 0;
   }
 
   .box-card .form-group .submit {

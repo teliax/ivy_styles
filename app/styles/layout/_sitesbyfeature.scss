@@ -1,15 +1,15 @@
-.box-site{
+.box-site {
   padding: 35px;
   margin-bottom: 15px;
   border: 1px solid $colorborderOut;
   border-radius: 5px;
   background: #fff;
 
-  h3{
+  h3 {
     margin-top: 0;
   }
 
-  .box-text{
+  .box-text {
     position: relative;
     padding: 20px;
     background: #fff;
@@ -17,39 +17,39 @@
     border: 1px solid $colorborderSmall;
     margin-bottom: 10px;
 
-    .hover-a{
+    .hover-a {
       margin-left: 20px;
     }
 
-    .text-delete{
+    .text-delete {
       position: relative;
-      top:2px;
+      top: 2px;
     }
 
-    p{
+    p {
       letter-spacing: 0.4px;
       margin-bottom: 10px;
 
-      &:last-child{
+      &:last-child {
         margin-bottom: 0;
       }
 
-      strong{
+      strong {
         font-weight: 500;
       }
     }
 
-    .table-div{
+    .table-div {
       margin: 0;
 
-      .table-cell{
-        float: none!important;
-        padding: 0!important;
+      .table-cell {
+        float: none !important;
+        padding: 0 !important;
       }
     }
 
-    &.has-rate{
-      .rate-tour{
+    &.has-rate {
+      .rate-tour {
         color: #1b434f;
       }
     }
@@ -60,220 +60,216 @@
     width: auto;
   }
 
-  .indicators::before, .indicators::after {
+  .indicators::before,
+  .indicators::after {
     display: none;
   }
 
-  .table-div .table-cell-2{
+  .table-div .table-cell-2 {
     padding: 0;
 
-    .form-group{
+    .form-group {
       margin-bottom: 0;
     }
   }
 }
 
-.box-additional{
-  border: 1px solid #ced0da!important;
+.box-additional {
+  border: 1px solid #ced0da !important;
 
-  .border-top{
-    border-top: 1px solid #bfccd4!important;
+  .border-top {
+    border-top: 1px solid #bfccd4 !important;
   }
 }
 
-.box-site-right{
+.box-site-right {
   background: #dbe3ea;
   margin-bottom: 15px;
-  border: 1px solid #ced0da!important;
+  border: 1px solid #ced0da !important;
 
-  .border-top{
+  .border-top {
     margin-top: 11px;
-    border-top: 1px solid #bfccd4!important;
+    border-top: 1px solid #bfccd4 !important;
     padding-top: 0;
   }
 
-  .row-item:first-child{
+  .row-item:first-child {
     padding-top: 25px;
   }
 
-  .tooltips .fa-info-circle{
+  .tooltips .fa-info-circle {
     font-size: 1em !important;
-    top:5px;
-    color:#a4aaaf!important;
+    top: 5px;
+    color: #a4aaaf !important;
   }
 
-  p{
+  p {
     font-family: $font-montser;
     font-weight: 300;
     color: #7c8ca5;
     font-size: 12/$font-b + em;
 
-    strong{
+    strong {
       font-size: 14/12 + em;
       font-weight: 400;
     }
   }
 
-  .table-div{
-    .table-cell:nth-child(1){
-      p{
+  .table-div {
+    .table-cell:nth-child(1) {
+      p {
         letter-spacing: 0.4px;
         line-height: 24/12 + em;
       }
     }
 
-    .table-cell:nth-child(2){
-      p{
+    .table-cell:nth-child(2) {
+      p {
         letter-spacing: 1px;
       }
     }
   }
-
 }
 
-.box-table-right.box-site-right{
+.box-table-right.box-site-right {
   padding-top: 25px;
   padding-bottom: 25px;
 
-  #collapse-right-v2{
+  #collapse-right-v2 {
     margin-bottom: -10px;
   }
 
-  .box-titlle.bottom-title{
+  .box-titlle.bottom-title {
     //border-bottom: 1px solid #bfccd4;
   }
 
-  h3{
+  h3 {
     position: relative;
     font-size: 18/$font-b + em;
 
-    .arrows-right{
+    .arrows-right {
       position: absolute;
-      right: 0!important;
+      right: 0 !important;
       padding: 10px;
-      top:2px;
+      top: 2px;
     }
   }
 
-  p{
+  p {
     margin-bottom: 5px;
   }
 }
 
-.box-site-ver2{
-  .border-bottom{
-    margin-left:0; 
-    margin-right:0; 
+.box-site-ver2 {
+  .border-bottom {
+    margin-left: 0;
+    margin-right: 0;
     padding-bottom: 10px;
     margin-bottom: 30px;
 
-    .col-sm-7,.col-sm-5{
+    .col-sm-7,
+    .col-sm-5 {
       padding: 0;
     }
   }
 }
 
-.box-status{
-  padding: 14px 20px!important;
+.box-status {
+  padding: 14px 20px !important;
 
-  p{
-    padding-bottom: 0!important;
+  p {
+    padding-bottom: 0 !important;
   }
 }
 
-.box-right-sitesbyfeature{
+.box-right-sitesbyfeature {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
 
-  .tooltips{
+  .tooltips {
     margin-bottom: 20px;
   }
 
-  .box-text{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 17px!important;
-    padding-bottom: 18px!important;
+  .box-text {
+    padding: 15px;
+    padding-top: 17px !important;
+    padding-bottom: 18px !important;
 
-    .label{
+    .label {
       font-family: $font-montser;
       font-weight: 400;
       color: #215a6c;
       letter-spacing: 0.75px;
     }
 
-    p{
+    p {
       letter-spacing: 0.4px;
       margin-bottom: 0;
-
     }
   }
 
-  .box-right-refresh{
-    margin-bottom: 0!important;
+  .box-right-refresh {
+    margin-bottom: 0 !important;
   }
 }
 
-@media only screen and(min-width: 992px){
-  .box-refresh{
+@media only screen and(min-width: 992px) {
+  .box-refresh {
     position: relative;
 
-    .box-right-refresh{
+    .box-right-refresh {
       position: absolute;
       right: 0;
     }
   }
 }
 
-@media only screen and(max-width: 991px){
-  .box-tour2 .table-div{
+@media only screen and(max-width: 991px) {
+  .box-tour2 .table-div {
     width: auto;
   }
 
-  .box-site .table-div .table-cell-2{
+  .box-site .table-div .table-cell-2 {
     display: block;
   }
 
-  /*.box-site .table-div .table-cell{
-		display: inline-block;
-		}*/
-  .box-site .box-text .text:not(span){
+  .box-site .box-text .text:not(span) {
     padding-bottom: 10px;
   }
 }
 
-@media only screen and(max-width: 991px) and(min-width: $min-sm){
-  .box-site-ver2{
-    padding-top: 30px!important;
+@media only screen and(max-width: 991px) and(min-width: $min-sm) {
+  .box-site-ver2 {
+    padding-top: 30px !important;
   }
 }
 
-@media only screen and(max-width: 500px){
-  .middle-box{
+@media only screen and(max-width: 500px) {
+  .middle-box {
     margin-top: 5px;
   }
 
-  .box-site .box-text .table-div{
-    display: inline-block!important;
+  .box-site .box-text .table-div {
+    display: inline-block !important;
   }
 
-  .box-site .box-text .table-cell{
-    display: inline-block!important;
+  .box-site .box-text .table-cell {
+    display: inline-block !important;
   }
 
-  .box-site .box-text .text-left-small{
+  .box-site .box-text .text-left-small {
     margin-top: 10px;
   }
 
-  .box-site-ver2{
-    .select-ver2{
-      margin-left: 0!important;
+  .box-site-ver2 {
+    .select-ver2 {
+      margin-left: 0 !important;
     }
   }
 }
 
-@media only screen and(max-width: 991px) and (min-width: $min-sm){
+@media only screen and(max-width: 991px) and (min-width: $min-sm) {
   .box-site {
     padding: 20px 15px;
   }
