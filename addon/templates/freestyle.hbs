@@ -12,12 +12,10 @@
     {{/freestyle-usage}}
 
     {{#freestyle-usage "checkbox" title="Checkbox"}}
-      <div class="row">
-        <div class="col-sm-6 col-xs-6">
-          <p class="title">Feature flag</p> 
-        </div>
-        <div class="col-sm-6 col-xs-6 text-right">
-          <div class="checkbox checked">
+      <div class="col-sm-6 col-md-5">
+        <div class="status">
+          <p class="label">Site Status </p>
+          <div class="checkbox checked check-box-2">
             <input type="checkbox" id="check_04">
             <label for="check_04"><span class="indicators" data-label-off="off" data-label-on="on"></span></label>
           </div>
@@ -36,13 +34,38 @@
       <hr>
     {{/freestyle-usage}}
 
-    {{#freestyle-usage "row" title="Row"}}
+    {{#freestyle-usage "row" title="Header"}}
       <div class="row">
         <div class="col-sm-6 col-xs-6">
           <h1 class="title-name">Edit Site Settings<span>Account: 90001352</span></h1>
         </div>
         <div class="col-sm-6 col-xs-6 text-right">
           <p><a href="" class="btn btn-ghost btn-no-background">delete this site</a></p>
+        </div>
+      </div>
+    {{/freestyle-usage}}
+
+    {{#freestyle-usage "row-setup" title="Data"}}
+      <div class="row-setup border-bottom">
+        <div class="row">
+          <div class="col-md-2  ">
+            <h3 class="tooltips"><i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="This is a tooltip text. Lorem ipsum dolor sit amet."></i>Site Name</h3>
+          </div>
+          <div class="col-sm-6 col-md-5">
+            <div class="form-group">
+              <label class="label">Site Nickname</label>
+              <input type="text" class="form-control" placeholder="Company Name">
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-5">
+            <div class="status">
+              <p class="label">Site Status </p>
+              <div class="checkbox checked check-box-2">
+                <input type="checkbox" id="check_04">
+                <label for="check_04"><span class="indicators" data-label-off="off" data-label-on="on"></span></label>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     {{/freestyle-usage}}
