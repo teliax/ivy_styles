@@ -141,6 +141,35 @@
         <p class="text-right total-rate out-box-total">Custom Plan Total Cost Per Month:<strong>$ 25.00</strong></p>
       </div>
     {{/freestyle-usage}}
+  {{/freestyle-section}}
 
+  {{#freestyle-section name="Tables"}}
+    {{#freestyle-usage "c-table" name="Table"}}
+    <div class="c-table">
+      <h3 class="tooltips"><i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="This is a tooltip text. Lorem ipsum dolor sit amet."></i> Recent Account Activity</h3>
+      <table class="table table-striped table-responsive">
+        <tbody>
+          <tr class="thead">
+            <th>Name</th>
+            <th>DNI</th>
+            <th>DNI Name</th>
+            <th>ANI</th>
+          </tr>
+          <tr>
+            <td>Interstate Call</td>
+            <td>14012833735</td>
+            <td>RI PROVIDENCE</td>
+            <td>7205889385</td>
+          </tr>
+          <tr>
+            <td>Interstate Call</td>
+            <td>14012833735</td>
+            <td>RI PROVIDENCE</td>
+            <td>3032228045</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    {{/freestyle-usage}}
   {{/freestyle-section}}
 {{/freestyle-guide}}
