@@ -16,7 +16,7 @@
     padding-bottom: 5px;
   }
 
-  .totle-rate strong {
+  .total-rate strong {
     position: relative;
     top: 5px;
   }
@@ -120,7 +120,7 @@
   }
 }
 
-.totle-rate {
+.total-rate {
   padding-top: 17px;
   padding-bottom: 22px;
   font-size: 15/$font-b + em;
@@ -157,13 +157,13 @@
 }
 
 @media only screen and(max-width: 1260px) and (min-width: 1117px) {
-  .box-availible .totle-rate {
+  .box-availible .total-rate {
     font-size: 0.9em;
   }
 }
 
 @media only screen and(max-width: 1117px) and (min-width: 992px) {
-  .box-availible .totle-rate {
+  .box-availible .total-rate {
     font-size: 0.7em !important;
 
     strong {
@@ -180,7 +180,7 @@
 }
 
 @media only screen and(max-width: $max-sm) {
-  .totle-rate {
+  .total-rate {
     padding-top: 0;
   }
 }

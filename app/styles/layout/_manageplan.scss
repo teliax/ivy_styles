@@ -273,10 +273,10 @@
   }
 }
 
-.bottom-totle-rate {
+.bottom-total-rate {
   padding-top: 5px;
 
-  .totle-rate {
+  .total-rate {
     padding-bottom: 0;
     padding-top: 0;
     margin-bottom: 0;
@@ -286,12 +286,12 @@
     color: #92a3b8;
   }
 
-  .totle-rate {
+  .total-rate {
     color: #1b434f;
   }
 
   .sum-total {
-    .totle-rate {
+    .total-rate {
       span {
         color: #1b434f;
         font-weight: 500;
@@ -370,17 +370,17 @@
 }
 
 @media only screen and(max-width: 1199px) {
-  .bottom-totle-rate .sum-total .totle-rate strong {
+  .bottom-total-rate .sum-total .total-rate strong {
     font-size: 1.5em;
   }
 
-  .bottom-totle-rate .rate-right {
+  .bottom-total-rate .rate-right {
     font-size: 1.3em;
   }
 }
 
 @media only screen and(max-width: 991px) {
-  .bottom-totle-rate {
+  .bottom-total-rate {
     .col-sm-4,
     .col-sm-8,
     .col-sm-6 {
@@ -391,7 +391,7 @@
 }
 
 @media only screen and(max-width: 991px) {
-  .bottom-totle-rate {
+  .bottom-total-rate {
     padding-bottom: 40px;
   }
 }

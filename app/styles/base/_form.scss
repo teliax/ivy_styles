@@ -795,9 +795,9 @@ input[type=number] {
   }
 
   &:not(.border) input[type=checkbox]:checked ~ label > .box {
-    -moz-transform: scale(0) rotate(-$font-b0deg);
-    transform: scale(0) rotate(-$font-b0deg);
-    -webkit-transform: scale(0) rotate(-$font-b0deg);
+    -moz-transform: scale(0) rotate(-$font-b);
+    transform: scale(0) rotate(-$font-b);
+    -webkit-transform: scale(0) rotate(-$font-b);
   }
 
   input[type=checkbox]:checked ~ label {
