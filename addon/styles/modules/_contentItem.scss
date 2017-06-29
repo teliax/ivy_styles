@@ -192,11 +192,11 @@
   }
 }
 
-.shay-ruggles {
+.user-menu {
   padding: 0;
   border-radius: 0 !important;
 
-  .top-shay-ruggles {
+  .top-user-menu {
     padding: 30px 50px 20px;
     border-bottom: 1px solid #d9dde1;
 
@@ -219,7 +219,7 @@
     right: -40px;
   }
 
-  .bottom-shay-ruggles {
+  .bottom-user-menu {
     position: relative;
     padding: 20px 0 25px;
 
@@ -1303,13 +1303,13 @@ table.table-responsive {
     }
   }
 
-  .checkbox-hover.checkbox-hover-shay .shay-ruggles {
+  .checkbox-hover.checkbox-hover-shay .user-menu {
     max-width: 320px !important;
   }
 }
 
 @media only screen and (max-width: 413px) {
-  .checkbox-hover.checkbox-hover-shay .shay-ruggles {
+  .checkbox-hover.checkbox-hover-shay .user-menu {
     max-width: 275px !important;
   }
 }
