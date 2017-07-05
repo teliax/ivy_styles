@@ -14,9 +14,9 @@
     {{#freestyle-usage "checkbox" title="Checkbox"}}
       <div class="col-sm-6 col-md-5">
         <div class="status">
-          <p class="label">Site Status </p>
-          <div class="checkbox checked check-box-2">
-            <input type="checkbox" id="check_04">
+          <p>Site Status</p>
+          <div class="checkbox">
+            {{input type="checkbox" id="check_04"}}
             <label for="check_04"><span class="indicators" data-label-off="off" data-label-on="on"></span></label>
           </div>
         </div>
@@ -210,11 +210,11 @@
 
   {{#freestyle-section name="Custom Components"}}
     {{#freestyle-usage "drop-down" title="Dropdown"}}
-      <div id="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-9 col-xs-9 text-right">
-              <ul class="menu-header-profile">
+      {{!--  <div id="header">  --}}
+        {{!--  <div class="container">  --}}
+          {{!--  <div class="row">  --}}
+            {{!--  <div class="col-sm-9 col-xs-9 text-right">  --}}
+              {{!--  <ul class="menu-header-profile">  --}}
                 {{#drop-down label="Click me" as |dd|}}
                   {{#dd.topContent}}
                     <p>Some text</p>
@@ -225,11 +225,11 @@
                     <h4><a href="#">SIGN OUT<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></h4>
                   {{/dd.bottomContent}}
                 {{/drop-down}}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+              {{!--  </ul>  --}}
+            {{!--  </div>  --}}
+          {{!--  </div>  --}}
+        {{!--  </div>  --}}
+      {{!--  </div>  --}}
     {{/freestyle-usage}}
   {{/freestyle-section}}
 {{/freestyle-guide}}
