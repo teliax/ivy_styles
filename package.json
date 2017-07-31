@@ -1,7 +1,7 @@
 {
   "name": "ivy-styles",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "CSS style project for Ivy projects",
   "keywords": [
     "ember-addon"
   ],
