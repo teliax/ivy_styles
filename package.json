@@ -1,7 +1,7 @@
 {
   "name": "ivy-styles",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.2",
+  "description": "CSS style project for Ivy projects",
   "keywords": [
     "ember-addon"
   ],
@@ -18,10 +18,13 @@
     "test": "ember try:each"
   },
   "dependencies": {
+    "ember-bootstrap": "1.0.0-beta.1",
     "ember-cli-babel": "6.4.1",
-    "ember-cli-htmlbars": "2.0.1"
+    "ember-cli-htmlbars": "2.0.1",
+    "ember-cli-sass": "6.2.0"
   },
   "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
     "broccoli-asset-rev": "2.5.0",
     "ember-ajax": "3.0.0",
     "ember-cli": "2.13.2",

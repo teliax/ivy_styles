@@ -1,0 +1,179 @@
+#footer,
+.menu-dashboard,
+.navbar-header,
+.header .col-sm-9,
+.play-pause,
+.btn,
+.check-box-2,
+.hover-a,
+.mod-checkbox,
+.check-existing,
+.checkbox-hover {
+  display: none !important;
+}
+
+#header {
+  text-align: center !important;
+  padding-bottom: 50 !important;
+  position: relative !important;
+}
+
+.container,
+.content-slide,
+.testimonial-slides.slick-slider,
+.col-sm-6 {
+  width: 100% !important;
+}
+
+a::after {
+  content: '';
+}
+
+a[href]::after {
+  content: none !important;
+}
+
+body {
+  overflow: hidden !important;
+}
+
+img {
+  display: block !important;
+}
+
+#header {
+  padding: 0;
+  height: auto;
+
+  .col-sm-3,
+  .logo {
+    width: 100%;
+    float: none;
+    max-width: none !important;
+    text-align: center;
+  }
+
+  #logo {
+    padding-bottom: 0;
+
+    img,
+    . {
+      display: block;
+      margin: 0 auto;
+      width: auto;
+    }
+  }
+}
+
+#main-content {
+  padding-top: 0;
+}
+
+.label {
+  border: none !important;
+}
+
+.wrapper {
+  padding: 0 !important;
+  border: none;
+  margin: 0;
+}
+
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.mod-image-gallery .table-div .col-xs-9,
+.box-card > * {
+  width: 100% !important;
+  float: none;
+}
+
+.sum-total {
+  > * {
+    width: 50%;
+    float: left;
+  }
+}
+
+.table-div,
+.table-cell,
+.table-cell-2 {
+  display: block !important;
+  width: 100% !important;
+
+  > * {
+    width: 100% !important;
+  }
+}
+
+.box-error,
+.box-upload {
+  margin-bottom: 25px;
+}
+
+.note-text {
+  padding-bottom: 25px !important;
+}
+
+.box-upload p {
+  left: 15px;
+}
+
+.bottom-total-rate {
+  .col-md-8,
+  .col-md-4 {
+    width: 100% !important;
+  }
+
+  .col-sm-4,
+  .col-sm-8 {
+    width: 100% !important;
+    text-align: left !important;
+  }
+}
+
+.sum-total {
+  margin-bottom: 10 !important;
+
+  .col-sm-6 {
+    width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 10 !important;
+  }
+}
+
+.col-md-4 {
+  width: 100% !important;
+}
+
+.status {
+  padding-top: 20 !important;
+  padding-bottom: 0 !important;
+
+  .label {
+    margin-bottom: 0 !important;
+  }
+
+  top: 0 !important;
+}
+
+.row-setup {
+  padding-top: 30 !important;
+
+  .text-note {
+    margin-bottom: 20 !important;
+  }
+}
+
+.box-text.has-rate {
+  .col-md-5,
+  .col-md-7 {
+    width: 50% !important;
+  }
+
+  .rate-tour {
+    margin-top: 15px !important;
+  }
+}

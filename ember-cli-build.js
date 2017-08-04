@@ -5,6 +5,19 @@ module.exports = function(defaults) {
   var app = new EmberAddon(defaults, {
     freestyle: {
       snippetSearchPaths: ['addon', 'tests/dummy/app']
+    },
+
+    stylelint: {
+      linterConfig:{
+        syntax: 'scss',
+        includePaths: ['app/styles']
+      },
+    },
+
+    'ember-bootstrap': {
+      'bootstrapVersion': 3,
+      'importBootstrapFont': true,
+      'importBootstrapCSS': false
     }
   });
 

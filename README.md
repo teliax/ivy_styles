@@ -1,6 +1,10 @@
 # ivy-styles
 
-This README outlines the details of collaborating on this Ember addon.
+This project hosts the CSS styles for Ivy Ember applications.  Additionally it hosts a living style guide to demonstrate many of the styles.
+
+## Usage (downstream projects)
+* Add the git address of this project to your package.json:
+`"tab-nav": "git+ssh://git@github.com/teliax/ivy_styles#v0.0.1"`
 
 ## Installation
 
@@ -11,8 +15,10 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running
 
+Running the style project itself allows you to validate that the SCSS compiles, as well as to browse the living style guide for examples.
+
 * `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Visit your app at [http://localhost:4200/freestyle](http://localhost:4400/freestyle).
 
 ## Running Tests
 

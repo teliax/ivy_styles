@@ -1,0 +1,1 @@
+export { default } from 'ivy-styles/components/menu-div';

@@ -1,0 +1,14 @@
+<a href="#" data-dropdown="dropdown" aria-haspopup="true" aria-expanded="{{expanded}}" class="" {{action "toggle"}}>
+  {{label}}
+  {{#if expanded}}
+    <span class="fa fa-angle-up"></span>
+  {{else}}
+    <span class="fa fa-angle-down"></span>
+  {{/if}}
+</a>
+{{#if expanded}}
+  <div class="dropdown-menu user-menu">
+    {{yield (hash topContent=(component "menu-div" class="top-user-menu"))}}
+    {{yield (hash bottomContent=(component "menu-div" class="bottom-user-menu text-center"))}}
+  </div>
+{{/if}}
